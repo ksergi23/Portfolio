@@ -1,0 +1,15 @@
+#navbarNav{
+    font-family: var(--font-two);
+ 
+}
+
+.navbar-brand{
+    font-family: var(--font-three);
+    font-size: 24pt;
+}
+
+#navdiv{
+    width: 100%;
+    position: fixed;
+    color: rgb(73, 73, 73)
+   }

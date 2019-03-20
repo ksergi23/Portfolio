@@ -1,0 +1,16 @@
+.nav{
+    background-color: rgb(44, 71, 112);
+    
+}
+.nav-link-active{
+    color: white;
+    font-size: 25px;
+    position: relative;
+}
+
+.nav-link{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top:-7px;
+}

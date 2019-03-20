@@ -1,0 +1,25 @@
+.col-4{
+    color: white;
+    z-index: -1;
+    padding: 6%
+}
+.Projects{
+    color: white;
+   
+
+    
+}
+.API{
+    color:rgb(124, 124, 236);
+    padding: 200px;
+}
+
+.CSS{
+    color: rgb(236, 149, 236);
+    padding: 200px;
+}
+
+.Webpage{
+    color: rgb(104, 167, 226);
+    padding: 140px;
+}

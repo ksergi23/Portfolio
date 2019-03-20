@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Jua|Raleway+Dots" rel="stylesheet">
+    
+    <!--CSS Files-->
+    <link rel="stylesheet" href="css/main.css">
+<!--
+  link github
+-->
+
+</head>
+<body>
+
+   <!--Navbar--> 
+
+   <div id ="navdiv">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#Projects">Projects <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+  
+   <!--Header-->
+
+   <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Katherine Sergi</h1>
+      <p class="lead"> Web Developer</p>
+    </div>
+  </div>
+
+   <!--Projects-->
+   <section id="Projects">
+       <h1 style ="text-align: center" class="Projects">Projects</h1>
+       <div class="containerProjects">
+           <div class="row">
+               <div class="col-4">
+                 <h3>API Project</h3>
+                 <div class="card" style="width: 18rem;">
+                    <img src="../portfolioExample/assets/img/api.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    </div>
+                  </div>
+                  
+                   <p>
+                      Using the Studio Ghibli API a webpage was created to display the films, film descriptions, and the release year. 
+                      </p>
+                      
+
+               </div>
+               <div class="col-4">
+                 <h3>CSS Creature</h3>
+                 <div class="card" style="width: 18rem;">
+                    <img src="../portfolioExample/assets/img/chip.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    </div>
+          
+                  </div>
+                    <p>
+                        A creative project where CSS was used to create a creature. This creature is modeled after Chip 
+                        from the Disney animated film Beauty and the Beast. 
+                        </p>
+                        </div>
+
+
+                <div class="col-4">
+                  <h3>Tutorial Webpage</h3>
+                  <div class="card" style="width: 18rem;">
+                      <img src="../portfolioExample/assets/img/webpage.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        
+                      </div>
+                    </div>
+                        <p>
+                            A beginners tutorial webpage using only HTML and CSS. 
+                           </p>
+     
+                    </div> 
+                </div> 
+                <a href="" class= "API">API</a>
+
+                <a href="https://codepen.io/ksergi/pen/JzRyQB" class="CSS">CSS Creature</a>
+
+                <a href=" https://ksergi23.github.io/TutorialWebpage/" class ="Webpage">Tutorial Webpage</a>
+
+                
+            </div>
+   </section>
+
+
+   <!--About-->
+<section id="About">
+  <div class="containerAbout">
+    <img src="../portfolioExample/assets/img/photo.jpg"  class="aboutPhoto">
+    <h1 style ="text-align: center" class="about">About</h1>
+  <div>
+<p class="info">
+  I am originally from Indianapolis but have spent the last 3 years in Orlando, Florida. While living in Orlando I gained skills in customer service and photography,
+  by working at Walt Disney World. My time in Orlando taught me a lot of self-motivation and after spending the past few years in informal education a spark for further learning.
+  As I transition into the world of being a developer I hope to continue to learn and be able to use my creative side. 
+
+</p>
+<a href="https://docs.google.com/document/d/1K03QVqyqOn8OBiAloYweWzXwg5kXFx1twkXYHcjxQMk/edit?usp=sharing">Resume</a>
+
+  </div>
+</div>
+</section>
+
+   <!--Contact-->
+   
+   <section id="Contact">
+        <div class="containerContact">
+            <br>
+            <br>
+          <h2 class="text-center text-uppercase">Contact Me</h2>
+          <div class="row">
+            <div class="col-12">
+              <form action="https://formspree.io/kesergi323@gmail.com" method="POST">
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input 
+                      type="text" 
+                      class="form-control" 
+                      placeholder="Your Name" 
+                      id="name" 
+                      required 
+                      data-validation-required-message="Please enter your name"
+                      name="name"
+                      >
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Email Address</label>
+                    <input 
+                      type="email" 
+                      class="form-control" 
+                      placeholder="Your Email" 
+                      id="email" 
+                      required 
+                      data-validation-required-message="Please enter your email"
+                      name="_replyto"
+                    >
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <textarea 
+                      class="form-control" 
+                      rows="7" 
+                      placeholder="Your Message" 
+                      id="message" 
+                      required 
+                      data-validation-required-message="Please leave a message"
+                      name="message"
+                    ></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <div id="success"></div>
+                  <button type="submit" class="btn btn-lg btn-black">
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    <h5 class="send">Send Message</h5>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>      
+
+
+    <!---FOOTER-->
+    <footer>
+        <nav class="nav">
+            <a class="nav-link-active" href="https://www.linkedin.com/in/katherine-sergi">LinkedIn</a>
+            <a class="nav-link" href="https://github.com/ksergi23">Github</a>
+          </nav>
+    </footer>
+    
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+</body>
+</html>

@@ -1,0 +1,7 @@
+.jumbotron{
+    background:url('../assets/img/ep.jpg') center top;
+    background-size:cover;
+    height: 40vh;
+    color:white;
+    padding: 15%;
+}
